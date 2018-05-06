@@ -1,0 +1,45 @@
+@media screen and (max-width: 1700px) {
+    .page {
+        background: url("/static/theme/img/-e-vaza_01.png") right center no-repeat,
+        url("/static/theme/img/-e-vaza_02.jpg") left bottom no-repeat,
+        url("/static/theme/img/-e-stol.jpg") 1250px 100px no-repeat,
+        url("/static/theme/img/-e-lampa.jpg") 50px 50px no-repeat;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    .page {
+        background: unset;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .page {
+        background: url("/static/theme/img/-e-vaza_02.jpg") left bottom no-repeat,
+        url("/static/theme/img/-e-stol.jpg") 1250px 100px no-repeat;
+    }
+}
+
+@media screen and (max-width: 1132px) {
+    .block-content span {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .exact-estimate,
+    .saving-money-and-time,
+    .dream-come-true {
+        max-width: 1000px;
+    }
+
+    .btn-design-project {
+        padding-top: 0;
+        background: unset;
+    }
+
+    .yellow-btn {
+        float: none;
+    }
+}
